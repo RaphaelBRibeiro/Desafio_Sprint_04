@@ -51,37 +51,14 @@ header{
     display: inline-block;
   } 
 /*----------INICIO MAIN----------*/
-  #video_ford{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-
-  }
-
-  .Carros{
-    background-color: rgb(104, 54, 25);
-    
-
-  }
+.Tabela_contato{
+    width: 40%;
+    padding: 12px 15px;
+    flex: 1;
+    margin-left: auto;
+ }
   
-  .divEsquerda{
-    background-color: #3d3b3b;
-    width: 20%;
-    float: left;
-  }
-  .divMeio{
-    background-color: red;
-    width: 20%;
-    float: center;
-  }
-
-  .divDireita{
-    background-color: #1eee63;
-    width: 20%;
-    float: right;
-  }
-
+  
 /*----------FIM MAIN----------*/
 
 
