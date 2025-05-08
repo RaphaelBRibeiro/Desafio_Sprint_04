@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-
   }
 
   /*----------INICIO CABEÇALHO----------*/
@@ -12,7 +11,6 @@ header{
   height: 80px;
   width: 100%;
   align-items: center;
-
 }
   #logo_ford{
     background-color: #ffffff; /*coloração do fundo*/
@@ -20,37 +18,30 @@ header{
     width: 10%; /*largura*/
     display: flex; 
     align-items: center; /* Ajusta no eixo Y*/
-
     }
   #logo_ford img{
     width: 70%;
-
   }
   
   #navegacao {
     width: 80%;
-
   }
   nav {
     background-color: #ffffff;
     width: 100%;
-
   }
   nav ul{
       list-style: none;
       text-align: center;
-
   }
   nav ul li {
     display: inline;
     margin: 0 1%
-
   }
   nav ul li a {
     text-decoration: none; /* Remove o sublinhado dos links */
     color: #1351d8; /* Cor do texto dos links */
     font-weight: bold; /* Deixa o texto em negrito (opcional) */
-
   }
 
   /*----------FIM CABEÇALHO----------*/
@@ -58,19 +49,30 @@ header{
     color: #1251d8;
     text-align: center;
     display: inline-block;
-
   } 
 /*----------INICIO MAIN----------*/
-  main{
-    margin: 2.7% 0%;
-    text-align: center;
+  #video_ford{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+
+  }
+
+  .Carros{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
   }
   
-  #carro_1 {
-    width: 6%;
-
+  .Tabela{
+    width: 20%;
+    float: inline-start;
   }
+
+  
 
 /*----------FIM MAIN----------*/
 
@@ -79,22 +81,14 @@ header{
   footer {
     display: flex;
     width: 100%;
-    background-color: #1b357e;
-    justify-content: space-between;
-
   }
    #roda_pe{
     background-color: #1b357e; /*coloração do fundo*/
     padding: 0.5%; /*tamanho do item em relação ao box*/
+    width: 100%; /*largura*/
     display: flex; 
     bottom: 0%; /* Ajusta no eixo Y*/
     color: #ffffff;
-    
-   }
-
-   #roda_pe:hover{
-    transform: scale(1.2);
-    transition: 1.5;
    }
    #copyright {
     background-color: #1b357e;
@@ -102,9 +96,8 @@ header{
     justify-content: right;
     display: flex;
     padding: 0.5%;
-
+    width: 70%;
    }
-
    /*----------FIM RODA PÉ----------*/
   /*
   cor do roda pé: 1b357e
