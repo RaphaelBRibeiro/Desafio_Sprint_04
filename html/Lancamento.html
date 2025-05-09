@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
     <link rel="stylesheet" href="../css/Lancamento.css">
     <link href="https://fonts.cdnfonts.com/css/ford" rel="stylesheet">
 </head>
+
 <body>
 
     <header>
         <div id="logo_ford">
             <a href="../index.html">
-            <img src="../anexo_desafio_htmlcss/img/logo-ford-256.png" alt="Logo Ford"></a>
+                <img src="../anexo_desafio_htmlcss/img/logo-ford-256.png" alt="Logo Ford"></a>
         </div>
         <div id="navegacao">
             <nav>
@@ -20,7 +22,7 @@
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="Lancamento.html">Lançamento</a></li>
                     <li><a href="Contato.html">Contato</a></li>
-                  </ul>
+                </ul>
             </nav>
         </div>
     </header>
@@ -29,54 +31,61 @@
         <!-- Inicio Video Ford -->
         <section id="video_ford">
             <iframe width="1000" height="600" src="https://www.youtube.com/embed/vQsryuNmsL0?si=1QciRulYXB7KbjIJ"
-             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
         <!-- Fim Video Ford -->
 
 
         <!-- Inicio Opções de Outros Carros -->
-        <div class="Carros">
-            <table class="Tabela">
-                <tr>
-                    <th> <img src="..//anexo_desafio_htmlcss/img/xls 2.2 diesel.jpg" alt=""></th>
-                </tr>
+        <div class="parte2">
+            <ul class="imagens">
+                <li class="carros">
+                    <img class="ford_carros" src="../anexo_desafio_htmlcss/img/XL Cabine.jpg" alt="">
+                    <div class="info">
+                        <input id="CABINE" class="box" type="checkbox">
+                        <label for="CABINE">Ford Renger XL Cabine 2.2 Diesel 4x4 2022</label>
 
-                <tr>
-                    <td>Modelo: Range XLS <br> Preço R$ 135.000,00</td>
-                    <button>Teste</button>
-                </tr>
-            </table>
+                        <img class="imagem_info" src="../anexo_desafio_htmlcss/img/info.png" alt="">
+                        <!--texto, Box e imagem-->
+                    </div>
+                </li>
+                
+                <li class="carros">
+                    <img class="ford_carros" src="..//anexo_desafio_htmlcss/img/xls 2.2 diesel.jpg" alt="">
+                    <div class="info">
+                        <input id="XLS" class="box" type="checkbox">
+                        <label for="XLS">Ford Ranger XLS 3.0 Diesel 4x4 2022</label>
+                        <img class="imagem_info" src="../anexo_desafio_htmlcss/img/info.png" alt="">
+                        <!--texto, Box e imagem-->
+                    </div>
+                </li>
+                
+                <li class="carros">
+                    <img class="ford_carros" src="../anexo_desafio_htmlcss/img/storm.jpg" alt="carro_Storm">
+                    <div class="info">
+                        <input id="STORM" class="box" type="checkbox">
+                        <label for="STORM">Ford Ranger Storm 3.2 Diesel 4x4 2022</label>
+                        <img class="imagem_info" src="../anexo_desafio_htmlcss/img/info.png" alt="">
+                        <!--texto, Box e imagem-->
+                    </div>
+                </li>
+            </ul>
 
-            <table class="Tabela">
-                <tr>
-                    <th> <img src="../anexo_desafio_htmlcss/img/storm.jpg" alt=""></th>
-                </tr>
+            <button id="compra" type="button">Comparar Carros</button>
 
-                <tr>
-                    <td>Modelo: Storm <br> Preço R$ 175.000,00</td>
-                </tr>
-            </table>
-
-            <table class="Tabela">
-                <tr>
-                    <th> <img src="../anexo_desafio_htmlcss/img/XL Cabine.jpg" alt=""></th>
-                </tr>
-
-                <tr>
-                    <td>Modelo: XL Cabine <br> Preço R$ 275.000,00</td>
-                </tr>
-            </table>
         </div>
 
-        <!-- Fim Video Ford -->
-        </main>
+        <!-- Inicio Opções de Outros Carros -->
+    </main>
 
     <footer>
         <div id="roda_pe">
             <p>Redes Sociais</p>
             <a href="https://www.instagram.com/fordbrasil/">
-                <img src="../anexo_desafio_htmlcss/img/instagram-logo-50.png" alt="link instagram"></a> 
+                <img src="../anexo_desafio_htmlcss/img/instagram-logo-50.png" alt="link instagram"></a>
 
             <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR">
                 <img src="../anexo_desafio_htmlcss/img/facebook-50.png" alt="link facebook"></a>
@@ -90,4 +99,5 @@
         </div>
     </footer>
 </body>
+
 </html>
