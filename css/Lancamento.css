@@ -20,7 +20,7 @@ header{
     align-items: center; /* Ajusta no eixo Y*/
     }
   #logo_ford img{
-    width: 70%;
+    width: 60%;
   }
   
   #navegacao {
@@ -58,29 +58,70 @@ header{
     background-color: #000000;
 
   }
-
-  .Carros{
-    background-color: rgb(255, 255, 255);
+  .parte2{
+    justify-items: center;
+    width: 100%;
+    
+  }
+ 
+  .imagens{
     display: flex;
     align-items: center;
     justify-content: center;
-
-  }
-  
-  .Tabela{
-    width: 20%;
-    float: inline-start;
+    width: 100%;
   }
 
-  
+  .carros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 50%;
+  }
 
+  .info {
+    display: flex;
+    width: 50%;
+    height: 1%;
+
+  }
+
+  .ford_carros{
+    width: 60%;
+  }
+  .imagem_info{
+  width: 15%;
+  height: 35%;
+  }
+
+  .box{
+    width: 30%;
+    border-style: blue;
+
+  }
+
+  #compra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin: 4%;
+    width: 10%;
+    background-color: #1b357e;
+    color: #ffffff;
+    border-radius: 7%;
+
+  }
 /*----------FIM MAIN----------*/
 
 
-  /*---------- RODA PÉ ----------*/
+/*---------- RODA PÉ ----------*/
   footer {
     display: flex;
     width: 100%;
+    position: fixed;
+    bottom: 0;
   }
    #roda_pe{
     background-color: #1b357e; /*coloração do fundo*/
@@ -99,6 +140,24 @@ header{
     width: 70%;
    }
    /*----------FIM RODA PÉ----------*/
+
+  /*----------INICIO HOVER'S----------*/
+  #logo_ford img:hover {
+    transform: scale(1.1);
+    transition: 1.5;
+
+  }
+  #navegacao li:hover{
+    transform: scale(1.2);
+    transition: 1.5;
+  }
+
+  #roda_pe a:hover{
+    transform: scale(1.2);
+    transition: 1.5;
+
+   }
+  /*----------FIM HOVER'S----------*/
   /*
   cor do roda pé: 1b357e
   cor das letras: 1351d8

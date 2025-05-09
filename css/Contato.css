@@ -20,7 +20,7 @@ header{
     align-items: center; /* Ajusta no eixo Y*/
     }
   #logo_ford img{
-    width: 70%;
+    width: 60%;
   }
   
   #navegacao {
@@ -84,6 +84,24 @@ header{
     width: 70%;
    }
    /*----------FIM RODA PÉ----------*/
+
+    /*----------INICIO HOVER'S----------*/
+  #logo_ford img:hover {
+    transform: scale(1.1);
+    transition: 1.5;
+
+  }
+  #navegacao li:hover{
+    transform: scale(1.2);
+    transition: 1.5;
+  }
+
+  #roda_pe a:hover{
+    transform: scale(1.2);
+    transition: 1.5;
+
+   }
+  /*----------FIM HOVER'S----------*/
   /*
   cor do roda pé: 1b357e
   cor das letras: 1351d8
