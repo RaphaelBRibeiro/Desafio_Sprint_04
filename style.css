@@ -2,7 +2,9 @@ body {
     font-family: 'Ford';
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #fcfcfc;
+    width: 100%;
+    height: 100vh;
 
   }
 
@@ -14,6 +16,7 @@ header{
   align-items: center;
 
 }
+
   #logo_ford{
     background-color: #ffffff; /*coloração do fundo*/
     padding: 10px; /*tamanho do item em relação ao box*/
@@ -22,30 +25,37 @@ header{
     align-items: center; /* Ajusta no eixo Y*/
 
     }
+
   #logo_ford img{
-    width: 70%;
+    width: 60%;
 
   }
+
+  
   
   #navegacao {
     width: 80%;
 
   }
+
   nav {
     background-color: #ffffff;
     width: 100%;
 
   }
+
   nav ul{
       list-style: none;
       text-align: center;
 
   }
+
   nav ul li {
     display: inline;
     margin: 0 1%
 
   }
+
   nav ul li a {
     text-decoration: none; /* Remove o sublinhado dos links */
     color: #1351d8; /* Cor do texto dos links */
@@ -62,13 +72,14 @@ header{
   } 
 /*----------INICIO MAIN----------*/
   main{
-    margin: 2.7% 0%;
+    margin: 5% 0%;
     text-align: center;
 
   }
   
   #carro_1 {
     width: 6%;
+    border-radius: 90%;
 
   }
 
@@ -81,8 +92,11 @@ header{
     width: 100%;
     background-color: #1b357e;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0;
 
   }
+
    #roda_pe{
     background-color: #1b357e; /*coloração do fundo*/
     padding: 0.5%; /*tamanho do item em relação ao box*/
@@ -92,10 +106,6 @@ header{
     
    }
 
-   #roda_pe:hover{
-    transform: scale(1.2);
-    transition: 1.5;
-   }
    #copyright {
     background-color: #1b357e;
     align-items: center;
@@ -106,6 +116,24 @@ header{
    }
 
    /*----------FIM RODA PÉ----------*/
+
+  /*----------INICIO HOVER'S----------*/
+  #logo_ford img:hover {
+    transform: scale(1.1);
+    transition: 2;
+
+  }
+  #navegacao li:hover{
+    transform: scale(1.2);
+    transition: 2;
+  }
+
+  #roda_pe a:hover{
+    transform: scale(1.2);
+    transition: 2;
+
+   }
+  /*----------FIM HOVER'S----------*/
   /*
   cor do roda pé: 1b357e
   cor das letras: 1351d8
