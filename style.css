@@ -2,23 +2,23 @@ body {
     font-family: 'Ford';
     margin: 0;
     padding: 0;
-    background-color: #fcfcfc;
+    background-color: #ffffff;
     width: 100%;
     height: 100vh;
 
   }
 
-  /*----------INICIO CABEÇALHO----------*/
-header{
-  display: flex;
-  height: 80px;
-  width: 100%;
-  align-items: center;
+/*----------INICIO CABEÇALHO----------*/
+  header{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
 
-}
+  }
 
   #logo_ford{
-    background-color: #ffffff; /*coloração do fundo*/
+    background-color: #ffffffc0; /*coloração do fundo*/
     padding: 10px; /*tamanho do item em relação ao box*/
     width: 10%; /*largura*/
     display: flex; 
@@ -31,8 +31,6 @@ header{
 
   }
 
-  
-  
   #navegacao {
     width: 80%;
 
@@ -63,7 +61,7 @@ header{
 
   }
 
-  /*----------FIM CABEÇALHO----------*/
+/*----------FIM CABEÇALHO----------*/
   h1 {
     color: #1251d8;
     text-align: center;
@@ -76,17 +74,11 @@ header{
     text-align: center;
 
   }
-  
-  #carro_1 {
-    width: 6%;
-    border-radius: 90%;
-
-  }
 
 /*----------FIM MAIN----------*/
 
 
-  /*---------- RODA PÉ ----------*/
+/*---------- RODA PÉ ----------*/
   footer {
     display: flex;
     width: 100%;
@@ -115,17 +107,31 @@ header{
 
    }
 
-   /*----------FIM RODA PÉ----------*/
+/*----------FIM RODA PÉ----------*/
 
-  /*----------INICIO HOVER'S----------*/
+
+/*----------INICIO HOVER'S----------*/
   #logo_ford img:hover {
     transform: scale(1.1);
+    transition: 1s;
+
+  }
+
+  #navegacao ul li a:hover{
+    font-size: 150%;
     transition: 2;
 
   }
-  #navegacao li:hover{
-    transform: scale(1.2);
-    transition: 2;
+
+  #carro_1 img{
+    transition: 3s;
+
+  }
+
+  #carro_1 img:hover{
+    transform: scale(1.05);
+    transition: 3s;
+
   }
 
   #roda_pe a:hover{
@@ -133,8 +139,9 @@ header{
     transition: 2;
 
    }
-  /*----------FIM HOVER'S----------*/
-  /*
-  cor do roda pé: 1b357e
-  cor das letras: 1351d8
-  */
+   
+/*----------FIM HOVER'S----------*/
+/*
+cor do roda pé: 1b357e
+cor das letras: 1351d8
+*/
