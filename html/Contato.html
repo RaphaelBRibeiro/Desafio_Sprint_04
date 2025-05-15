@@ -12,7 +12,7 @@
     <header>
         <div id="logo_ford">
             <a href="../index.html">
-            <img src="../anexo_desafio_htmlcss/img/ford-96.png" alt="Logo Ford"></a>
+            <img src="../anexo_desafio_htmlcss/img/logo-ford-256.png" alt="Logo Ford"></a>
         </div>
         <div id="navegacao">
             <nav>
@@ -26,19 +26,59 @@
     </header>
 
     <main>
-        <div class="Tabela_contato">
-            <form action="#" method="post">
-                <label for="subjetive"> Contato </label>
-                    <p><input type="name" name="" placeholder="Nome Completo" id=""></p>
-                    <p><input type="email" name="" placeholder="email@exemplo.com" id=""></p>
-                    <p><input type="tel" name="" placeholder="Telefone" id=""> <input></p>
-                    <p>Tipo de contato (reclamação, Elogio ou Solicitação) <input></p>
-            </select>
-        </form>
-                <button>Enviar</button>
-    </div>
-    </main>
 
+        <img id="carro" src="../anexo_desafio_htmlcss/img/storm.jpg" alt="Carro Storm">
+    <form class="formulario" action="#" method="post">
+        <table class="tabela">
+            <tr>
+                <th  class="tabela_input">
+                    Sobre Você
+                </th>
+            <tr>
+                <td>
+                    <p class="Descricao">Nome</p>
+                    <input class="tabela_input" type="name" name="" placeholder="Nome Completo" id="">
+                </td>
+            </tr>
+            <tr class="colunas">
+                <td class=" colunas_input">
+                    <p class="Descricao">Email</p>
+                    <input class="tabela_input" type="email" name="" placeholder="email@exemplo.com" id="">
+                </td>
+            </tr>
+
+            <tr class="colunas">
+                <td class=" colunas_input">
+                    <p class="Descricao">Telefone</p>
+                    <input class="tabela_input" type="tel" name="" placeholder="Telefone" id="">
+                </td>
+            </tr>
+
+            <tr>
+                <td class=" colunas_input">
+                    <p class="Descricao">Assunto</p>
+                    <select class="tabela_input">
+                        <option value="0">Tipo de contato:</option>
+                        <option value="1">Reclamação</option>
+                        <option value="2">Elogio</option>
+                        <option value="3">Solicitação</option>
+                </td>
+            </tr>
+            <tr>
+                <td class=" colunas_input">
+                    <p>Mensagem</p>
+                    <textarea name="texto_feedback" id="texto" cols="30" rows="15"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+            <td><button id="Enviar" type="submit">Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+    
+    </main>
+    <!--<button id="botao" type="submit">Enviar sua mensagem</button> -->
     <footer>
         <div id="roda_pe">
             <p>Redes Sociais</p>
